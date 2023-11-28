@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+font-family: "poppins", sans-serif;
+background-color: whitesmoke;
+
+}
+a, a:hover{
+text-decoration:none ;    
+
+}
+.top-bar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 25px;
+background-color: blue;
+position:fixed;
+z-index: 3;
+width: 100%;
+top: 0px;
+
+}
+.top-bar span{
+color: white;
+}
+.top-bar ul{
+list-style: none;
+display:flex;
+}
+.top-bar li{
+margin: 0px 5px;
+}
+.top-bar a{
+color: aliceblue;
+}
+.top-bar a:hover{
+color: blue;
+}
+nav{
+background: red;
+padding: 5px 20px;
+display: flex;
+align-items: center;
+position:fixed;
+width: 100%;
+z-index: 2;
+top:35px;
+}
+.nav a{
+color: aqua;
+}
+
+.nav a:hover{
+color: chocolate;
+}
+
+.logo{
+flex: 1;
+}
+.logo a{
+display: flex;
+align-items: center;
+font-size: 20px;
+}
+.log a:hover{
+color: #fff;
+}
+.logo img{
+width: 40px;
+margin-right: 10px;
+}
+.menu{
+display: flex;
+align-items: center;
+list-style: none;
+}
+.menu li{
+padding: 10px 20px;
+font-size: 20px;
+}
+.toggle{
+font-size: 30px;
+display: none;
+}
+.car{
+background-color:gainsboro;
+width:100%;
+height: 200px;
+position:relative;
+z-index: 3;
+top: 0;
+}
+.ad{
+text-align: center;
+}
+/* --------pal section------------- */
+.pal{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 10px;
+}
+.pal-1{
+    max-width:800px;
+    position:relative;
+    }
+    .pal-1 img{
+    width: 100%;
+    height: 530px;
+    margin-top: 18px;
+    }
+    /* ---------pal 3------------------ */
+    .pal-3{
+        max-width: 700px;
+        margin: 15px;
+        
+        
+        }
+        /* -------pal 4---------------- */
+    .pal-4{
+    flex-direction: column;
+    margin-bottom: 30px;
+     }
+     /* --------top-1----------------- */
+    .top-1{
+    position: absolute;
+    bottom:50px;
+    font-size: 23px;
+    padding-right: 10px;
+    padding-left:10px ;
+    color: #fff;
+    line-height: 1.2;
+    }
+    /* --------pal 5--------------------- */
+    .pal-5{
+    max-width: 400px;
+    position:relative;
+    }
+    .pal-5 img{
+    width: 100%;
+    height: 250px;
+    margin-top: 18px;
+   
+    }
+    .cool{
+    position:absolute;
+    bottom: 20px;
+    color: #fff;
+    font-size: 23px;
+    padding-right: 10px;
+    padding-left:10px ;
+    line-height: 1.2;
+    }
+    /* ------line----------- */
+    .pal-3-h2{
+    font-size: 30px;
+    background-color: blue;
+    text-align: center;
+    color: #fff;
+    
+    height: 70px;
+    
+    }
+    .pal-p{
+    font-size: 24px;
+    }
+    .can-1{
+    color: blue;
+    }
+    .canspan-1{
+    color: red;
+    }
+    .can-2{
+    color: gold;
+    }
+    .canspan-2{
+    color: palegreen;
+    }
+    .can-3{
+    color: red;
+    }
+    .canspan-3{
+    color: blue;
+     }    
+   /* --------------adv------------------------- */
+    .adv{
+    width: 100%;
+    height: 200px;
+    background-color: gainsboro;
+    }
+    .kok{
+    display: flex;
+    justify-content: space-around;
+    }
+    /* -------book-------------- */
+   .book{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin-top: 20px;
+   }
+   .book-1{
+    width: 500px;
+    margin: 10px;
+    position: relative;
+   }
+   .book-1 img{
+   width: 100%;
+   height: 350px;
+   }
+   .book-3{
+    width: 400px;
+   background-color: gray;
+   height:350px;
+   margin-top: 10px;
+   }
+   .close{
+    position: absolute;
+    bottom: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 25px;
+    }
+    .bk{
+    color: red;
+    margin-left:40px;
+    margin-top: 20px;
+    }
+    .ns{
+    color: blue;
+    text-decoration: underline;
+    }
+    book-3 img{
+    width: 100%;
+    height: 350px;
+    margin-right: 20px;
+    margin-left: 10px;
+    }
+ /*-------key-------------  */
+ .key-1{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin-top: 45px;
+ }
+.key-2{
+max-width: 530px;
+font-size: 23px; 
+line-height: 1.4;
+
+  }
+  .key-3{
+  max-width: 700px;
+  margin: 15px;
+  position:relative;
+  }
+  .key-3 img{
+  width: 100%;
+  height: 430px;
+  }
+  .as{
+  max-width: 700px;
+  
+  }
+  .key-4{
+  display: flex;
+  
+  }
+  .key-4 img{
+  width: 28%;
+  height: 100px;
+  margin: 7px;
+  border-radius: 15px;
+  }
+  .key-p{
+  max-width:480px;
+  margin:0px 8px;
+  font-size: 23px;
+  
+  } 
+  .h-h{
+  max-width: 460px;
+  color: gainsboro;
+  }
+  .cl{
+  position: absolute;
+  bottom: 40px;
+  color: #fff;
+  font-size: 23px;
+  margin-right:10px ;
+  margin-left: 15px;
+  } 
+  .en{
+  color: blue;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 10px;
+  } 
+  .sp{
+  color: red;
+  
+  } 
+  .k1{
+  color: blue;
+  margin-left: 45px;
+  text-decoration: underline;
+  
+  }
+  .k2{
+  color: darkorchid;
+  
+  }
+  .ca{
+    width: 30%;
+    height: 40px;
+  color: red;
+  }
+  .ca-1{
+    width: 30%;
+    height: 40px;
+  color: blue;
+  }
+  .ca-2{
+    width: 30%;
+    height: 40px;
+  color: palegreen;
+  }
+  .ca-3{
+    width: 30%;
+    height: 40px;
+  color: yellow;
+  }
+  .ca-4{
+    width: 30%;
+    height: 40px;
+  color: orangered;
+  }
+ /* -------foot--------- */
+ .fot{
+ background-color: black;
+ }
+ .fot-1{
+  color: #fff;
+  text-align: center;
+ }
+ /* -------adv----------------- */
+ .cube-1{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: spin 35s infinite linear;
+  margin: 40px;
+  justify-content: center;
+  display: flex;
+  
+  }
+  .ttt{
+    display: flex;
+    background-color: red;
+    color: white;
+    justify-content: center;
+  }
+  .cube{
+  justify-content: center;
+  display: flex;
+  background-color: blue;
+  flex-wrap: wrap;
+  height: 300px;
+  
+  }
+  .face-1{
+  position: absolute;
+  width:300px;
+  height:200px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+  display: flex;
+  background-color: #c0392b;
+  } 
+  .front{transform: rotateY(0deg) translateZ(150px); background: linear-gradient(45deg, #3498db, #34495e);}
+  .back{transform: rotateY(180deg) translateZ(150px); background: linear-gradient(45deg, #e74c3c, #c0392b);}
+  .left{transform: rotateY(-90deg) translateZ(150px); background: linear-gradient(45deg, #27ae60, #229954);}
+  .right{transform: rotateY(90deg) translateZ(150px); background: linear-gradient(45deg, #f1c40f, #f39c12);}
+  .top{transform: rotateX(-90deg) translateZ(150px); background: linear-gradient(45deg, #9b59b6, #8e44ad);}
+  .bottom{transform: rotateX(90deg) translateZ(150px); background: linear-gradient(45deg, #e67e22, #d35400);}
+  
+  @keyframes spin {
+  100%{ transform:rotateX(0deg) rotateY(460deg);}
+  0%{ transform: rotateX(0deg) rotateY(0deg);}     
+  
+  }
+
+  
+@media screen and (max-width:600px){
+ nav{
+display: block;
+position:relative ;
+padding: 15px 20px;
+top:0px;
+ position: fixed;
+ z-index: 2;
+ 
+ }  
+ .menu{
+margin-top: 15px;
+display: none;
+ }
+ .menu.active,.toggle{
+ display: block;
+ }
+ .toggle{
+position: absolute;
+top: 15px;
+right: 20px;
+ }
+ .top-bar{
+ top: 40px;
+ position: fixed;
+ z-index: 2;
+ top: 60px;
+
+ }
+ car{
+display: none;
+ }
+ /* ------pal----------- */
+ .pal-1{
+ width: 400px;
+ }
+ .pal-1 img{
+ width: 100%;
+ height: 250px;
+ bottom: 1px;
+ }
+ .pal-3-h2{
+width: 100%;
+
+ }
+ .top-1{
+ bottom: 0px;
+ line-height: 1.5;
+ }
+ .tp{
+ display: none;
+ }
+ .pal-p{
+ line-height: 1.5;
+ font-size: 20px;
+ }
+ .pal-5{
+  width: 400px;
+  bottom: 35px;
+ }
+ .pal-5 img{
+ width:100%;
+ 
+ }
+ .cool{
+ font-size: 25px;
+ color: gainsboro;
+ }
+ .cube-1{
+  display: flex;
+ max-width: 400px;
+ margin-right:10px ;
+ margin-left: 10px;
+ }
+ .book-1{
+  width: 400px;
+  }
+  .book-1 img{
+  width: 100%;
+  height: 250px;
+  bottom: 1px;
+  }
+  .key-2{
+  max-width: 400px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+    }
+    pal-1 img{
+    width: 100%;
+    height: 250px;
+    bottom: 1px;
+    }
+    .key-3{
+      width: 400px;
+      }
+      .key-3 img{
+      width: 100%;
+      height: 250px;
+      bottom: 1px;
+      }
+      .key-4 img{
+       width: 150px;
+      }
+        .key-p{
+        max-width: 400px;
+        }
+        .as{
+          max-width: 400px;
+          margin-left: 10px;
+        }
+        
+}
+
